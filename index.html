@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Joke App</title>
+  <meta name="description" content="Joke App">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div class="topbar">
+	  <button class="btn green-btn" onClick="getJoke()">Get A New Random Joke</button>
+	  <a href="https://github.com/15Dkatz/official_joke_api" target="_blank">View API Docs</a>
+	</div>
+	<p id="status"></p>
+	<div class="joke-viewer" id="jokeViewer">
+	  <div class="joke-container">
+	    <p id="joke">Joke goes here</p>
+	    </div>
+	  <button class="btn blue-btn" id="toggleButton" onClick="togglePunchline()">Show Punchline</button>
+	  <div class="punchline-container" id="punchlineContainer">
+	    <p id="punchline">Punchline goes here</p>
+	    </div>
+	</div>
+	 <script src="script.js"></script>
+</body>
+</html>
